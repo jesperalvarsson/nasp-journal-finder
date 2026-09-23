@@ -9,8 +9,8 @@ publishes, and a link to the journal itself.
 
 It is meant for research on suicide, self-harm and mental ill-health, the field
 of **NASP**, the National Centre for Suicide Research and Prevention of Mental
-Ill-Health at Karolinska Institutet. Of the 6,859 journals on the KI-JL, 1,313
-are classified relevant to that field - 1,169 of them at a KI level that scores
+Ill-Health at Karolinska Institutet. Of the 6,859 journals on the KI-JL, 1,605
+are classified relevant to that field - 1,413 of them at a KI level that scores
 points, which is the figure shown at the top of the page. The rest stay
 searchable, so an out-of-scope idea still gets an answer.
 
@@ -24,7 +24,7 @@ The problem it addresses is a habit, not a lookup: good work goes to journals
 below what it warrants, because the shortlist of candidates is the shortlist of
 places we have published before. So relevance here is computed from **what the
 research is about**, never from where it has appeared. The topic model is built
-from the titles, MeSH terms, keywords and abstracts of 104 NASP papers from
+from the titles, MeSH terms, keywords and abstracts of 149 NASP papers from
 2021-2026; publication venues are read exactly once, at the very end, to check
 how much of the known-good set the result still reaches. A model that learned
 from venues would only ever recommend more of the same.
@@ -48,7 +48,7 @@ query box, and read down the ranking.
 - **Save the page** (Ctrl+S) to use it offline. It keeps working with no
   network; only the wider model below needs one.
 
-The page carries a 1,281-journal text model inside it and fetches the full
+The page carries a 1,728-journal text model inside it and fetches the full
 6,403-journal model (`profiles.json`, about 8 MB over the wire) in the
 background a second or two after it opens. Until that lands the built-in model
 answers, so there is nothing to wait for; when it arrives the ranking widens and
@@ -83,15 +83,18 @@ spreadsheets. Ask if you would like access.
 
 In short: 6,403 of the 6,859 journals have a text profile built from up to 300
 of their PubMed articles from the last five years. A journal enters the relevant
-set by a title rule (531), by topical coverage alone (302), or by both (480) -
-that middle number is the point of the exercise, 302 journals no keyword list
-would have named. 205 of the relevant journals sit at KI level 2 or 3.
+set by a title rule (551), by topical coverage alone (508), or by both (546) -
+that middle number is the point of the exercise, 508 journals no keyword list
+would have named. 232 of the relevant journals sit at KI level 2 or 3.
 
 Two limits worth knowing before trusting a ranking. Journal links were checked
 by fetching them once, which proves an address answers, not that it answers for
-that journal. And the topic model is built from 104 papers, so topics resting on
+that journal. And the topic model is built from 149 papers, so topics resting on
 a handful of them are visibly noisier than the large ones - the topic list on
-the page shows how many journals each one reaches, which is the tell.
+the page shows how many journals each one reaches, which is the tell. A topic
+that mostly reaches journals the subject rules cannot place at all is treating a
+method as a subject, and is held back from widening the list; it says so in the
+topic panel, and can still be ticked deliberately.
 
 ## Rebuilding this site
 
