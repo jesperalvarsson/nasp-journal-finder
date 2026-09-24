@@ -9,8 +9,8 @@ publishes, and a link to the journal itself.
 
 It is meant for research on suicide, self-harm and mental ill-health, the field
 of **NASP**, the National Centre for Suicide Research and Prevention of Mental
-Ill-Health at Karolinska Institutet. Of the 6,859 journals on the KI-JL, 1,605
-are classified relevant to that field - 1,413 of them at a KI level that scores
+Ill-Health at Karolinska Institutet. Of the 6,859 journals on the KI-JL, 1,623
+are classified relevant to that field - 1,426 of them at a KI level that scores
 points, which is the figure shown at the top of the page. The rest stay
 searchable, so an out-of-scope idea still gets an answer.
 
@@ -83,8 +83,8 @@ spreadsheets. Ask if you would like access.
 
 In short: 6,403 of the 6,859 journals have a text profile built from up to 300
 of their PubMed articles from the last five years. A journal enters the relevant
-set by a title rule (551), by topical coverage alone (508), or by both (546) -
-that middle number is the point of the exercise, 508 journals no keyword list
+set by a title rule (569), by topical coverage alone (485), or by both (569) -
+that middle number is the point of the exercise, 485 journals no keyword list
 would have named. 232 of the relevant journals sit at KI level 2 or 3.
 
 Two limits worth knowing before trusting a ranking. Journal links were checked
@@ -92,9 +92,11 @@ by fetching them once, which proves an address answers, not that it answers for
 that journal. And the topic model is built from 149 papers, so topics resting on
 a handful of them are visibly noisier than the large ones - the topic list on
 the page shows how many journals each one reaches, which is the tell. A topic
-that mostly reaches journals the subject rules cannot place at all is treating a
-method as a subject, and is held back from widening the list; it says so in the
-topic panel, and can still be ticked deliberately.
+judged on what it ALONE brings in - if most of those journals cannot be placed
+by the subject rules at all, it is treating a method as a subject - is held back
+from widening the list; it says so in the topic panel, and can still be ticked
+deliberately. One of the ten is, a cluster of epigenetics papers that on its own
+was admitting 240 journals of cancer and cell biology.
 
 ## Rebuilding this site
 
